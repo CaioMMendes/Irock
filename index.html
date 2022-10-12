@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>
+        Irock
+    </title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link href="irock.css" rel="stylesheet">
+    <script type="text/javascript" src="irock.js" defer></script>
+
+
+</head>
+
+
+<body onload="alert(' Oi, eu sou o Irock')">
+
+    <div id="divRocha" class="rocha">
+
+        <div id="buttonRocha">
+            <button type="submit" id="cadastrar" style="cursor:pointer ;" onclick="escrever()"> <img
+                    class="theRockTriste"
+                    src="https://cdn.discordapp.com/attachments/863259740808806421/1029505124789395526/unknown.png"
+                    alt="irock"></button>
+        </div>
+        <div id="teste">
+
+        </div>
+
+        <div id="falaRocha">
+
+        </div>
+        <div id="escrito"></div>
+
+    </div>
+
+
+
+
+    <script>
+        //Faz com que ao apertar enter pressione o botão
+        function searchKeyPress(e) {
+            // look for window.event in case event isn't passed in
+            e = e || window.event;
+            if (e.keyCode == 13) {
+                document.getElementById('cadastrar').click();
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+
+</body>
+
+</html>

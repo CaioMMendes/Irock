@@ -1,0 +1,83 @@
+body {
+
+  background-color: rgb(0, 0, 0);
+  background-size: cover;
+display: inline;
+  background-repeat: no-repeat;
+
+}
+
+#divRocha{
+
+ 
+      position: relative;
+  width: 100%;
+  height: 100%;
+}
+/* #cadastrar{
+  position: absolute;
+  top:9%;
+  left: 7.5%;
+  z-index: 20;
+} */
+/* #inputRocha{
+z-index: 20;
+ position: absolute;
+text-align: center;
+ left: 0%;
+ top:5%;
+} */
+
+#falaRocha{
+            color: #ffffff;
+    font-size: 16px;
+           position: absolute;
+        z-index: 4;
+
+        top:15%; /* Adjust this value to move the positioned div up and down */
+        left: 65%;
+        right: 0;
+
+        text-align: left;
+
+    
+
+}
+
+.theRockTriste{
+            color: #ffffff;
+
+           position: absolute;
+        z-index: 1;
+  top:0%; /* Adjust this value to move the positioned div up and down */
+        left: 0%;
+        right: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.theRockFeliz{
+            color: #ffffff;
+
+           position: absolute;
+        z-index: 2;
+  top:-3%; /* Adjust this value to move the positioned div up and down */
+        left: 0%;
+        right: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+#escrito{
+ color: #ffffff;
+ font-size: 42px;
+z-index: 9;
+position: absolute;
+        top:30%; /* Adjust this value to move the positioned div up and down */
+        left: 74%;
+        right: 0;
+
+}
